@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div>
+                <center><h1>Taylor Swift Album</h1></center>
+            </div>
+            <div class="col-sm-6 col-md-3 font-face">
+                <div id="thumbnail" class="inline"></div>
+                <div id="title1" style="font-weight: bold;"></div>
+                <div id="artist1"></div>
+                <button class="btn btn-default" id="cc">Buy now</button>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div id="thumbnail"></div>
+                <div id="title2"  style="font-weight: bold;"></div>
+                <div id="artist2"></div>
+                <button class="btn btn-default">Buy now</button>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div id="thumbnail"></div>
+                <div id="title3"  style="font-weight: bold;"></div>
+                <div id="artist3"></div>
+                <button class="btn btn-default">Buy now</button>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div id="thumbnail"></div>
+                <div id="title4"  style="font-weight: bold;"></div>
+                <div id="artist4"></div>
+                <button class="btn btn-default">Buy now</button>
+            </div>
+            <script>
+                var myObj, x;
+                myObj1 = {
+                    "title1": "Taylor Swift",
+                    "artist1": "Taylor Swift",
+                    "url1": "https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/61McsadO1OL.jpg",
+                    "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+                };
+                myObj2 = {
+                    "title2": "Fearless",
+                    "artist2": "Taylor Swift",
+                    "url": "https://www.amazon.com/Fearless-Enhanced-Taylor-Swift/dp/B001EYGOEM",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/51qmhXWZBxL.jpg",
+                    "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+                };
+                myObj3 = {
+                    "title3": "Speak Now",
+                    "artist3": "Taylor Swift",
+                    "url": "https://www.amazon.com/Speak-Now-Taylor-Swift/dp/B003WTE886",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/51vlGuX7%2BFL.jpg",
+                    "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+                };
+                myObj4 = {
+                    "title4": "Red",
+                    "artist4": "Taylor Swift",
+                    "url": "https://www.amazon.com/Red-Taylor-Swift/dp/B008XNZMOU",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/41j7-7yboXL.jpg",
+                    "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+                };
+                myObj5 = {
+                    "title5": "1989",
+                    "artist5": "Taylor Swift",
+                    "url": "https://www.amazon.com/1989-Taylor-Swift/dp/B00MRHANNI",
+                    "image": "https://images-na.ssl-images-amazon.com/images/I/717DWgRftmL._SX522_.jpg",
+                    "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+                };
+                // a = myObj.thumbnail_image;
+                b = myObj1.title1;
+                c = myObj1.artist1;
+               // cc = myObj1.url1;
+                e = myObj2.title2;
+                f = myObj2.artist2;
+                g = myObj3.title3;
+                h = myObj3.artist3;
+                i = myObj4.title4;
+                j = myObj4.artist4;
+                document.getElementById("title1").innerHTML = b;
+                document.getElementById("artist1").innerHTML = c;
+                document.getElementById("title2").innerHTML = e;
+                document.getElementById("artist2").innerHTML = f;
+                document.getElementById("title3").innerHTML = g;
+                document.getElementById("artist3").innerHTML = h;
+                document.getElementById("title4").innerHTML = i;
+                document.getElementById("artist4").innerHTML = j;
+                // $("#thumbnail").append("<img src='" + myObj.thumbnail_image + "' />");
+            </script>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
